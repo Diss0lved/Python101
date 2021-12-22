@@ -1,0 +1,14 @@
+int1 = 1000
+int2 = -1901
+dec1= 1.0
+dec2= -3.8473873
+char1 = "A"
+char2= "m"
+str1= "Laiba"
+str2= "?"
+
+print(str1+char1,"\n"+ str2)
+print(str1+str(int1))
+int1 = str(int1)
+print(int(int1)+int2)
+print(int1+str(int2))
