@@ -1,0 +1,34 @@
+#TASK 1
+
+shopping_list= ["Ipad","Legos","Cycle",0,"Art stationary"]
+shopping_list.append("Halwa")
+shopping_list.insert(3,"ApplePencil")
+print(shopping_list[0:100])
+
+#Task 2
+username= input("Enter username: ")
+pass1= input("Enter password: ")
+
+if len(pass1)>8:
+    print("It is a strong password")
+else:
+    print("Its a weak password")
+
+#Task3
+s_list= ["Shoes","Macbook","Headphones"]
+n_item=input("Enter your item: ")
+s_list.append(n_item)
+print(s_list)
+
+#OR
+
+s_list.append(input("Enter next item: "))
+
+#Task 4
+s_list= ["Shoes","Macbook","Headphones"]
+n_item=input("Enter your item: ")
+if n_item=="books" or n_item=="pots" or n_item=="knives":
+    print("Your item is banned")
+else:
+    s_list.append(n_item)
+print(s_list)
